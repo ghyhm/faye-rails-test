@@ -1,0 +1,7 @@
+chat
+
+<ul id="chat">
+<% @chat_messages.each do |msg| %>
+  <li><%= msg.message %></li>
+<% end %>
+</ul>
